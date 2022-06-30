@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54310E74286DC87900747F80 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54310E73286DC87900747F80 /* EditViewController.swift */; };
+		5443C2582868F3BF0059FA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443C2572868F3BF0059FA81 /* AppDelegate.swift */; };
+		5443C25A2868F3BF0059FA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443C2592868F3BF0059FA81 /* SceneDelegate.swift */; };
+		5443C25F2868F3BF0059FA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443C25D2868F3BF0059FA81 /* Main.storyboard */; };
+		5443C2612868F3C10059FA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443C2602868F3C10059FA81 /* Assets.xcassets */; };
+		5443C2642868F3C10059FA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443C2622868F3C10059FA81 /* LaunchScreen.storyboard */; };
+		5443C26C2868F4410059FA81 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443C26B2868F4410059FA81 /* TableViewController.swift */; };
+		545226E3286A13CC0043495C /* PaymentTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545226E2286A13CC0043495C /* PaymentTableVC.swift */; };
+		545C0FCA286C71FA005E1DB5 /* Odeme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C0FC9286C71FA005E1DB5 /* Odeme.swift */; };
+		5487090F2869A45500E5982D /* AktivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487090E2869A45500E5982D /* AktivityModel.swift */; };
+		8798C15B6D3FD2588E287758 /* Pods_Money_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE122F33AF69954FE0EDB1D6 /* Pods_Money_Calculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54310E73286DC87900747F80 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		5443C2542868F3BF0059FA81 /* Money Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5443C2572868F3BF0059FA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5443C2592868F3BF0059FA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5443C25E2868F3BF0059FA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5443C2602868F3C10059FA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5443C2632868F3C10059FA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5443C2652868F3C10059FA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5443C26B2868F4410059FA81 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		545226E2286A13CC0043495C /* PaymentTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableVC.swift; sourceTree = "<group>"; };
+		545C0FC9286C71FA005E1DB5 /* Odeme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Odeme.swift; sourceTree = "<group>"; };
+		5487090E2869A45500E5982D /* AktivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AktivityModel.swift; sourceTree = "<group>"; };
+		B33946019AA6C1CE1BD273E8 /* Pods-Money Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Calculator.release.xcconfig"; path = "Target Support Files/Pods-Money Calculator/Pods-Money Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		DE122F33AF69954FE0EDB1D6 /* Pods_Money_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Money_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0365A5E6C5D2E52C16550BF /* Pods-Money Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Money Calculator/Pods-Money Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5443C2512868F3BF0059FA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8798C15B6D3FD2588E287758 /* Pods_Money_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CD91D825C4623AF2DA4DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0365A5E6C5D2E52C16550BF /* Pods-Money Calculator.debug.xcconfig */,
+				B33946019AA6C1CE1BD273E8 /* Pods-Money Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4132598ACE932D40D86919D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE122F33AF69954FE0EDB1D6 /* Pods_Money_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5443C24B2868F3BF0059FA81 = {
+			isa = PBXGroup;
+			children = (
+				5443C2562868F3BF0059FA81 /* Money Calculator */,
+				5443C2552868F3BF0059FA81 /* Products */,
+				28CD91D825C4623AF2DA4DA4 /* Pods */,
+				4132598ACE932D40D86919D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5443C2552868F3BF0059FA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5443C2542868F3BF0059FA81 /* Money Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5443C2562868F3BF0059FA81 /* Money Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5443C2572868F3BF0059FA81 /* AppDelegate.swift */,
+				5443C2592868F3BF0059FA81 /* SceneDelegate.swift */,
+				545226E6286A2A880043495C /* View */,
+				545226E5286A2A7D0043495C /* Model */,
+				545226E4286A2A750043495C /* Controller */,
+				5443C2602868F3C10059FA81 /* Assets.xcassets */,
+				5443C2622868F3C10059FA81 /* LaunchScreen.storyboard */,
+				5443C2652868F3C10059FA81 /* Info.plist */,
+			);
+			path = "Money Calculator";
+			sourceTree = "<group>";
+		};
+		545226E4286A2A750043495C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				545226E2286A13CC0043495C /* PaymentTableVC.swift */,
+				5443C26B2868F4410059FA81 /* TableViewController.swift */,
+				54310E73286DC87900747F80 /* EditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		545226E5286A2A7D0043495C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5487090E2869A45500E5982D /* AktivityModel.swift */,
+				545C0FC9286C71FA005E1DB5 /* Odeme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		545226E6286A2A880043495C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5443C25D2868F3BF0059FA81 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5443C2532868F3BF0059FA81 /* Money Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5443C2682868F3C10059FA81 /* Build configuration list for PBXNativeTarget "Money Calculator" */;
+			buildPhases = (
+				9497D1603005727684505095 /* [CP] Check Pods Manifest.lock */,
+				5443C2502868F3BF0059FA81 /* Sources */,
+				5443C2512868F3BF0059FA81 /* Frameworks */,
+				5443C2522868F3BF0059FA81 /* Resources */,
+				4DE2E5F39406DFB8FE6D8985 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Calculator";
+			productName = "Money Calculator";
+			productReference = 5443C2542868F3BF0059FA81 /* Money Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5443C24C2868F3BF0059FA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5443C2532868F3BF0059FA81 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5443C24F2868F3BF0059FA81 /* Build configuration list for PBXProject "Money Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5443C24B2868F3BF0059FA81;
+			productRefGroup = 5443C2552868F3BF0059FA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5443C2532868F3BF0059FA81 /* Money Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5443C2522868F3BF0059FA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5443C2642868F3C10059FA81 /* LaunchScreen.storyboard in Resources */,
+				5443C2612868F3C10059FA81 /* Assets.xcassets in Resources */,
+				5443C25F2868F3BF0059FA81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE2E5F39406DFB8FE6D8985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Money Calculator/Pods-Money Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Money Calculator/Pods-Money Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Money Calculator/Pods-Money Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9497D1603005727684505095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Money Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5443C2502868F3BF0059FA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545C0FCA286C71FA005E1DB5 /* Odeme.swift in Sources */,
+				545226E3286A13CC0043495C /* PaymentTableVC.swift in Sources */,
+				5443C2582868F3BF0059FA81 /* AppDelegate.swift in Sources */,
+				5443C26C2868F4410059FA81 /* TableViewController.swift in Sources */,
+				5443C25A2868F3BF0059FA81 /* SceneDelegate.swift in Sources */,
+				5487090F2869A45500E5982D /* AktivityModel.swift in Sources */,
+				54310E74286DC87900747F80 /* EditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5443C25D2868F3BF0059FA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5443C25E2868F3BF0059FA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5443C2622868F3C10059FA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5443C2632868F3C10059FA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5443C2662868F3C10059FA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5443C2672868F3C10059FA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5443C2692868F3C10059FA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0365A5E6C5D2E52C16550BF /* Pods-Money Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJT22M2F7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burak-akcan.Money-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5443C26A2868F3C10059FA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33946019AA6C1CE1BD273E8 /* Pods-Money Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJT22M2F7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burak-akcan.Money-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5443C24F2868F3BF0059FA81 /* Build configuration list for PBXProject "Money Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5443C2662868F3C10059FA81 /* Debug */,
+				5443C2672868F3C10059FA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5443C2682868F3C10059FA81 /* Build configuration list for PBXNativeTarget "Money Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5443C2692868F3C10059FA81 /* Debug */,
+				5443C26A2868F3C10059FA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5443C24C2868F3BF0059FA81 /* Project object */;
+}
